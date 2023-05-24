@@ -21,7 +21,7 @@ export const AuthProvider = ({ children }) => {
 
   const signin = async (username, password) => {
     const response = await (
-      await fetch("https://billlingappbe--rasul8215.repl.co//api/auth/signin", {
+      await fetch("https://billlingappbe--rasul8215.repl.co/api/auth/signin", {
         method: "POST",
         body: JSON.stringify({
           username,
